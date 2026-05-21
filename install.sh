@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # SpeedTerm - Installateur Debian/Ubuntu
-# Usage: curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/speedterm/main/install.sh | bash
+# Usage: curl -sSL https://raw.githubusercontent.com/skm88/speedterm/main/install.sh | bash
 
 set -e
 
-GITHUB_REPO="YOUR_USERNAME/speedterm"
+GITHUB_REPO="skm88/speedterm"
 
 # Couleurs
 GREEN='\033[0;32m'
