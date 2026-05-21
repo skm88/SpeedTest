@@ -1,8 +1,8 @@
 # SpeedTerm - Installateur Windows (PowerShell)
-# Usage: irm https://raw.githubusercontent.com/YOUR_USERNAME/speedterm/main/install.ps1 | iex
+# Usage: irm https://raw.githubusercontent.com/skm88/speedterm/main/install.ps1 | iex
 
 $ErrorActionPreference = "Stop"
-$GithubRepo = "YOUR_USERNAME/speedterm"
+$GithubRepo = "skm88/speedterm"
 
 function Write-Cyan($msg)   { Write-Host $msg -ForegroundColor Cyan }
 function Write-Green($msg)  { Write-Host $msg -ForegroundColor Green }
